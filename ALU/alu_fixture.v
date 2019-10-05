@@ -22,7 +22,7 @@ end
 //Reading the Testvectors to mem
 initial
 begin
-$readmemb("alu_pl_output.txt",mem);
+$readmemb("alutest.txt",mem);
 end
 initial
 begin

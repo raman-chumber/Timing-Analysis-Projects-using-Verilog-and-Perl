@@ -7,7 +7,7 @@ for($i=0; $i<=15; ++$i)
  $ctrl[$i] = int(rand(4));
 }
 
-$file = "alu_pl_output.txt";
+$file = "alutest.txt";
 open(test,"> $file");
 
 for($i=0; $i<=15; ++$i)
